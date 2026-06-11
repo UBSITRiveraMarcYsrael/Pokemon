@@ -3,6 +3,7 @@ import { LeaderInfo } from '../leader-info/leader-info';
 
 @Component({
   selector: 'app-johto-gym-leader',
+  standalone: true,
   imports: [LeaderInfo],
   templateUrl: './johto-gym-leader.html',
   styleUrl: './johto-gym-leader.css',
