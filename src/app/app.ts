@@ -7,7 +7,7 @@ import { JohtoGymLeader } from './johto-gym-leader/johto-gym-leader';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, Navbar, KantoGymLeader, JohtoGymLeader ],
+  imports: [RouterOutlet, Navbar, KantoGymLeader, JohtoGymLeader],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
