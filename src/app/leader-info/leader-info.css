@@ -1,0 +1,17 @@
+
+  
+  .icon {
+    font-size: 3rem;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+  
+  .motto {
+    margin-top: 1000px;
+    color: #444;
+    font-style: italic;
+  }

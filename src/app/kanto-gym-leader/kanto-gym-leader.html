@@ -1,0 +1,23 @@
+<section class="leader-section">
+  <h2>Kanto Gym Leaders</h2>
+  <div class="card-grid"> 
+    @for (leader of gymLeaderK(); track leader.name) {
+      <div class="leader">
+        <h3>{{leader.name}}</h3>
+        <p class="description">{{ leader.description }}</p>
+        <p class="level">{{ leader.level }}</p>
+        <p class="location">{{ leader.location }}</p>
+        <p class="badge">{{ leader.badge }}</p>
+        
+        <ul class="pokemon">
+          @for (pokemon of leader.team; track pokemon) {
+            <li>{{ pokemon }}</li>
+          }
+        </ul>
+
+        <!-- Component is now safely nested inside the card container -->
+        <app-leader-info [leader]="leader"></app-leader-info>
+      </div>
+    }
+  </div>
+</section>

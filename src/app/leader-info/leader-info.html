@@ -1,0 +1,8 @@
+<div class="card">
+    <button (click)="toggleMotto()">
+      Motto: 
+    </button>
+    @if(showMotto()) {
+      <p>{{ leader.motto }}</p>
+    }
+  </div>

@@ -1,0 +1,38 @@
+/* Container styling */
+.home-container {
+  padding: 40px 30px;
+  background: linear-gradient(360deg, #709958, #0f172a);
+  color: #ffffff;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Headings styling */
+.home-container h1,
+.home-container h2 {
+  color: #ffffff;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Main title */
+.home-container h1 {
+  font-size: 32px;
+  border-bottom: 2px solid #444445;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+/* Section spacing */
+.history-section {
+  margin-bottom: 35px;
+}
+
+/* Paragraph styling */
+.history-section p {
+  font-size: 16px;
+  max-width: 800px;
+  margin: 0 auto;      /* Centers the paragraph block */
+  text-align: center;  /* Centers the text */
+}
